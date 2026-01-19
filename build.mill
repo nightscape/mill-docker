@@ -1,5 +1,6 @@
 package build
 import mill._, scalalib._, publish._
+import mill.contrib.sonatypecentral.SonatypeCentralPublishModule
 import mill.util.BuildInfo.{millBinPlatform, millVersion}
 
 object versions {
